@@ -1,5 +1,7 @@
 <template>
-    <map-view-main style="width: 100%;height: 100%;"></map-view-main>
+  <div class="index-style">
+    <h1>Home</h1>
+  </div>
 </template>
 
 <script>
@@ -10,4 +12,8 @@ export default {
 };
 </script>
 
-<style scoped></style>
+<style>
+.index-style {
+  margin-top: 64px;
+}
+</style>

@@ -3,7 +3,7 @@
     <el-main class="main-style">
       <header-main />
       <el-container style="width: 100%;height: 100%;">
-        <aside-main/>
+        <aside-main />
         <el-main class="main-style">
           <router-view></router-view>
         </el-main>
@@ -13,12 +13,12 @@
 </template>
 
 <script>
-  import HeaderMain from "@/views/Header/HeaderMain";
-  import AsideMain from "@/views/Aside/AsideMain";
+import HeaderMain from "@/views/Header/HeaderMain";
+import AsideMain from "@/views/Aside/AsideMain";
 
-  export default {
+export default {
   name: "Structure",
-  components: {AsideMain, HeaderMain }
+  components: { AsideMain, HeaderMain }
 };
 </script>
 

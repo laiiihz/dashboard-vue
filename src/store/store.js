@@ -5,11 +5,11 @@ Vue.use(Vuex);
 
 export default new Vuex.Store({
   state: {
-    asideOpen:true,
+    asideOpen: true
   },
   mutations: {
-    changeAsideOpen(state){
-      state.asideOpen=!state.asideOpen
+    changeAsideOpen(state) {
+      state.asideOpen = !state.asideOpen;
     }
   },
   actions: {}
